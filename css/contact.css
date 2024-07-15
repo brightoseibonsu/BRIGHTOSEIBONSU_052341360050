@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-position: contain;
+    background-image: url(../images/gf5.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    background: transparent;
+    width:auto;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.active{
+    color: green;
+}
+nav{
+    display: flex;
+}
+.logo{
+    color: white;
+}
+ul{
+    
+    display: flex;
+    margin-left: 450px;
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: green;
+}
+.btn1{
+    margin-left: auto;
+    color: white;
+    width: 70px;
+    margin-right: 20px;
+}
+.p{
+    color: white;
+}
+button{
+    background: transparent;
+    border-radius: 25px;
+    color: white;
+    width: 70px;
+    border-color: green;
+    border-width: 1px;
+}
+h4 a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.cn{
+    margin-top: 100px;
+}
+h4 a:hover{
+    color: green;
+}
